@@ -1,0 +1,33 @@
+.space-around {
+  margin: 1rem 0;
+}
+.notification {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.notification-image {
+  width: 80px;
+  height: 80px;
+}
+
+.notification-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  gap: 0.5rem;
+  margin-left: 10px;
+  padding: 1rem;
+}
+.notification-content-title {
+  font-size: 1rem;
+  color: #f43f5e;
+}
+.notification-content-subtitle {
+  font-size: 1.2rem;
+}
+.notification-content-id {
+  font-size: 1rem;
+}

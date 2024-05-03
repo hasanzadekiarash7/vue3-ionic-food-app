@@ -1,0 +1,44 @@
+ion-avatar {
+  --border-radius: 1px;
+}
+
+.recent-list {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recent-list-header {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.recent-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  position: relative;
+  margin-left: -25px;
+}
+.recent-list-item-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.recent-list-item-subtitle {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #a8a29e;
+}
+.recent-list-item-image {
+  width: 80px;
+  height: 80px;
+}
+.recent-list-item-contentWrapper {
+  margin-left: 1rem;
+}

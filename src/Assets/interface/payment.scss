@@ -1,0 +1,47 @@
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  width: 100%;
+  height: 90vh;
+}
+.payment-label {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.payment-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+}
+.payment-cardImage {
+  width: 120px;
+  height: 60px;
+}
+.payment-card-box {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 300px;
+  ion-input {
+    min-height: 30px;
+  }
+}
+.payment-card-secondBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.3rem 1rem;
+  width: 200px;
+}
+.payment-card-secondBox-input {
+  width: 100px;
+  height: 30px !important;
+  min-height: 30px !important;
+}

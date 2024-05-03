@@ -1,0 +1,15 @@
+.user-settings {
+  background-color: #f5f5f4;
+}
+ion-item {
+  margin: 1rem 0;
+  --background: #f5f5f4;
+  &:hover {
+    --background: #60a5fa;
+  }
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}

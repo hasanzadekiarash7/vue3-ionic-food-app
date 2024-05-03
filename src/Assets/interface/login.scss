@@ -1,0 +1,32 @@
+.login-container {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 2rem;
+}
+.login-container-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.login-container-subtitle {
+  font-size: 1rem;
+  text-align: center;
+  line-height: 20px;
+}
+.login-container-select {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.login-container-tel {
+  text-align: center;
+  font-size: 1.2rem;
+}
+ion-content {
+  --keyboard-offset: 0px !important;
+}
+.login-container-submit {
+  width: 100%;
+}
